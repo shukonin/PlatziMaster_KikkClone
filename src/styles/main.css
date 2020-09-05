@@ -1,0 +1,30 @@
+/* -----------------------------------General */
+* {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+body {
+    margin: 0;
+    background-image: url("../../assets/image/luke-stackpoole-_aE8ainPt7M-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 600vh;
+}
+
+/* -----------------------------------NYFW-front*/
+
+.nyfw-front {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    width: 108vw;
+    overflow: hidden;
+    top: -10vh;
+    left: -10vw;
+    font-size: 42vw;
+    color: #B8B8B8;
+    font-stretch: expanded;
+}
+
+/* ----------------------------------------header*/
