@@ -1,9 +1,17 @@
 /* -----------------------------------General */
 * {
     font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
+    font-size: 10px;
     color: aliceblue;
 }
+
+:root {
+    --white: #fff;
+    --yellow: #FFE600;
+    --blue: #364B83;
+    --gray: #B8B8B8;
+}
+
 body {
     margin: 0;
     background-image: url("../../assets/image/luke-stackpoole-_aE8ainPt7M-unsplash.jpg");
@@ -23,8 +31,30 @@ body {
     top: -10vh;
     left: -10vw;
     font-size: 42vw;
-    color: #B8B8B8;
-    font-stretch: expanded;
+    color: var(--gray);
 }
 
 /* ----------------------------------------header*/
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 4vh 0 70vh;
+    top: 0;
+}
+
+.navbar__option {
+    list-style: none;
+    margin: 0 2vw;
+}
+
+.navbar__option a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar__option a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
