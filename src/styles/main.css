@@ -215,3 +215,90 @@ main {
     font-size: 2rem;
     margin-top: 1vh;
 }
+
+/* -------------------------------------footer */
+footer {
+    margin: 10vw;
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.links ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.links li { 
+    margin: 0 1vw;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.links li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hashtag {
+    text-align: center;
+    margin-top: 15vh;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.input__container {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.input__container input {
+    height: 5vh;
+    width: 33vw;
+    font-size: 2rem;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    color: var(--blue);
+}
+
+.input__container input:focus {
+    outline: none;
+}
+
+.submit-button {
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.submit-button button {
+    color: var(--black);
+    background-color: var(--yellow);
+    font-size: 2rem;
+    padding: 1vh 2vw;
+    border-radius: 1vw;
+}
+
+.submit-button button {
+    cursor: pointer;
+}
+
+.media {
+    margin: 5vh 0 ;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 0 2vw;
+    font-size: 4rem;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 4rem;
+    font-weight: 300;
+}
