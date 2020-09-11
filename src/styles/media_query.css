@@ -107,6 +107,10 @@
         margin-top: 20vh;
     }
 
+    .main__sponsors--icon {
+        object-fit: contain;
+    }
+
     .main__date h2 {
         margin-top: 5vh;
     }
