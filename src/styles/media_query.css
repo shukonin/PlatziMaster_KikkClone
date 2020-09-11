@@ -1,0 +1,166 @@
+@media (max-width: 1439px){
+    .main__designers--name {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+@media (max-width: 1225px) {
+    .nyfw-front {
+        top: -8vh;
+    }
+    
+    .links li {
+        font-size: 1.5rem;
+    }
+
+    .stories__card {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .stories__card--description h3 {
+        margin: 0 2vw;
+    }
+}
+
+@media (max-width: 950px){
+    body {
+        height: 500vh;
+    }
+    
+    .nyfw-front {
+        top: -5vh;
+    }
+
+    .navbar__option a {
+        font-size: 1.5rem;
+    }
+
+    .main__date h2 {
+        margin-top: 15vh;
+    }
+
+    .main__sponsors {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10vw;
+        margin-right: 6vw;
+        margin-left: 6vw;
+    }
+    
+    .main__designers--name {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .main__designers--name li {
+        font-size: 1rem;
+    }
+
+    .main__video {
+        top: 250vh;
+        left: calc(50% - 70vw/2);
+        width: 70vw;
+        padding-top: calc(70vw * 0.5625);
+    }
+
+    .stories {
+        margin-top: 130vh
+    }
+    .stories__card--description h3 {
+        font-size: 2.5rem;
+    }
+
+    .stories__card--description p {
+        font-size: 1.5rem;
+    }
+    
+    .links li {
+        font-size: 1.2rem;
+    }
+
+    .copyright {
+        margin-top: 10vh;
+    }
+}
+
+@media (max-width: 767px){
+    body {
+        height: 400vh;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        margin-top: 65vh;
+    }
+
+    .navbar li {
+        margin: 1vh 0;
+    }
+
+    .nyfw-front {
+        top: 15vh;
+    }
+
+    .main__sponsors {
+        margin-top: 20vh;
+    }
+
+    .main__date h2 {
+        margin-top: 5vh;
+    }
+
+    .main__designers {
+        margin-top: 1vh;
+    }
+    .main__designers--name li {
+        font-size: 1rem;
+    }
+
+    .main__video {
+        top: 220vh;
+    }
+
+    .stories {
+        margin-top: 100vh;
+    }
+
+    .stories__card {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .stories__card--photo {
+        height: 12vh;
+    }
+
+    .stories__card--description h3 {
+        font-size: 1.5rem;
+    }
+
+    .stories__card--description p {
+        font-size: 1rem;
+    }
+
+    .links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links li {
+        margin-bottom: 2vh;
+        font-size: 1.5rem;
+    }
+
+    .hashtag {
+        margin-top: 3vh;
+        font-size: 2rem;
+    }
+
+    .copyright {
+        margin-top: 5vh;
+        font-size: 2rem;
+    }
+
+
+}
