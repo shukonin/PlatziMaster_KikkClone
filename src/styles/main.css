@@ -21,6 +21,16 @@ body {
     height: 600vh;
 }
 
+img, li, h2, iframe, i {
+    opacity: 0;
+    transition: 2s ease-out;
+    will-change: opacity;
+}
+
+.visible {
+    opacity: 1;
+}
+
 /* -----------------------------------NYFW-front*/
 
 .nyfw-front {
@@ -45,6 +55,11 @@ body {
     position: fixed;
     padding: 0;
     width: 100vw;
+    z-index: 5;
+}
+
+.navbar li {
+    opacity: 1;
 }
 
 .navbar__option {
