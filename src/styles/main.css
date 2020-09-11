@@ -50,12 +50,13 @@ img, li, h2, iframe, i {
 .navbar {
     display: flex;
     justify-content: center;
-    margin-top: 4vh;
+    padding: 3vh 0 1vh;
+    margin: 0;
     top: 0;
     position: fixed;
-    padding: 0;
     width: 100vw;
     z-index: 5;
+    background-color: var(--black);
 }
 
 .navbar li {
@@ -92,10 +93,13 @@ main {
     padding: 2vh 4vw;
     font-size: 2.5rem;
     border-radius: 2vw;
+    box-shadow: inset 0px 0px white;
+    transition: box-shadow 1s ease-out;
 }
 
 .main__buy-button:hover {
-    cursor: pointer;    
+    cursor: pointer;
+    box-shadow: inset 300px 0px white;
 }
 
 /* ----------------------------------------sponsors*/
@@ -294,10 +298,15 @@ footer {
     font-size: 2rem;
     padding: 1vh 2vw;
     border-radius: 1vw;
+    box-shadow: inset 0px 0px white;
+    transition: box-shadow 1s ease-out;
+    will-change: box-shadow;    
 }
 
-.submit-button button {
+.submit-button button:hover {
     cursor: pointer;
+    cursor: pointer;
+    box-shadow: inset 300px 0px white;
 }
 
 .media {
