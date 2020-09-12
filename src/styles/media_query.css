@@ -165,6 +165,50 @@
         margin-top: 5vh;
         font-size: 2rem;
     }
+}
 
+@media (max-width: 575px) {
+    body {
+        height: 300vh;
+    }
 
+    main {
+        margin-top: 50vh;
+    }
+    
+    .main__sponsors {
+        grid-template-columns: 1fr 1fr;
+        gap: 15vw;
+        margin: 10vh 20vw 0;
+        /* margin-left: 20vw;
+        margin-right: 20vw; */
+    }
+
+    .main__date h2 {
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        background-color: aliceblue;
+    }
+
+    .main__designers {
+        display: none;
+    }
+
+    .main__video {
+        top: 170vh;
+    }
+
+    .stories {
+        margin-top: 60vh;
+        margin-bottom: 5vh;
+    }
+
+    .stories__card--photo {
+        height: 8vh;
+    }
+
+    footer {
+        margin-top: 0;
+    }
 }
